@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Discover the Book of Mormon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    header, nav, section {
+      padding: 20px;
+      margin: 0;
+      background-color: #fff;
+    }
+
+    nav button {
+      margin-right: 10px;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 0;
+      background-color: #046307;
+      color: #fbeec1;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      margin-top: 3rem;
+      margin-bottom: 0;
+      margin-right: 0;
+      margin-left: 0;
+      font-size: 1.3rem;
+      box-shadow: 0 -4px 10px rgba(4, 99, 7, 0.5);
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="matching-game"></div>
+  <div id="bibliography"></div>
+
+  <footer>
+    <p>&copy;2025 Samuel Jacobs</p>
+  </footer>
+
+  <script type="text/babel" src="./app.js"></script>
+  <script type="text/babel" src="./MatchingGame.js"></script>
+  <script type="text/babel" src="./bibliography.js"></script>
+
+
+  </script>
+</body>
+</html>
